@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/PW-2021/static/css/main.75bd8500.chunk.css",
+    "main.js": "/PW-2021/static/js/main.c864ab90.chunk.js",
+    "main.js.map": "/PW-2021/static/js/main.c864ab90.chunk.js.map",
+    "runtime-main.js": "/PW-2021/static/js/runtime-main.9ae9b5aa.js",
+    "runtime-main.js.map": "/PW-2021/static/js/runtime-main.9ae9b5aa.js.map",
+    "static/js/2.77b1d424.chunk.js": "/PW-2021/static/js/2.77b1d424.chunk.js",
+    "static/js/2.77b1d424.chunk.js.map": "/PW-2021/static/js/2.77b1d424.chunk.js.map",
+    "index.html": "/PW-2021/index.html",
+    "precache-manifest.f2de77553fcfc948a2f1d43c6c3ea4ba.js": "/PW-2021/precache-manifest.f2de77553fcfc948a2f1d43c6c3ea4ba.js",
+    "service-worker.js": "/PW-2021/service-worker.js",
+    "static/css/main.75bd8500.chunk.css.map": "/PW-2021/static/css/main.75bd8500.chunk.css.map",
+    "static/js/2.77b1d424.chunk.js.LICENSE.txt": "/PW-2021/static/js/2.77b1d424.chunk.js.LICENSE.txt",
+    "static/media/aji.png": "/PW-2021/static/media/aji.6a7b0720.png",
+    "static/media/arkin.png": "/PW-2021/static/media/arkin.eff75141.png",
+    "static/media/style.scss": "/PW-2021/static/media/illustration-section-02.63d0555d.svg",
+    "static/media/ezra.png": "/PW-2021/static/media/ezra.8df4a3ec.png",
+    "static/media/feature-tile-icon-01.svg": "/PW-2021/static/media/feature-tile-icon-01.0f9928d7.svg",
+    "static/media/feature-tile-icon-02.svg": "/PW-2021/static/media/feature-tile-icon-02.bd39f304.svg",
+    "static/media/feature-tile-icon-03.svg": "/PW-2021/static/media/feature-tile-icon-03.66f37ba5.svg",
+    "static/media/feature-tile-icon-04.svg": "/PW-2021/static/media/feature-tile-icon-04.836acd10.svg",
+    "static/media/feature-tile-icon-05.svg": "/PW-2021/static/media/feature-tile-icon-05.fa9ba00b.svg",
+    "static/media/feature-tile-icon-06.svg": "/PW-2021/static/media/feature-tile-icon-06.6a177696.svg",
+    "static/media/gerar.png": "/PW-2021/static/media/gerar.24376a96.png",
+    "static/media/ig.svg": "/PW-2021/static/media/ig.f92ffa5d.svg",
+    "static/media/imagepost.svg": "/PW-2021/static/media/imagepost.02e1a124.svg",
+    "static/media/kevin.png": "/PW-2021/static/media/kevin.ff3716b0.png",
+    "static/media/line.png": "/PW-2021/static/media/line.277791c7.png",
+    "static/media/mili.png": "/PW-2021/static/media/mili.f652358e.png",
+    "static/media/uajy.png": "/PW-2021/static/media/uajy.593d8ade.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9ae9b5aa.js",
+    "static/js/2.77b1d424.chunk.js",
+    "static/css/main.75bd8500.chunk.css",
+    "static/js/main.c864ab90.chunk.js"
+  ]
+}
