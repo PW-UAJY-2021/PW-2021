@@ -7,12 +7,12 @@ import ButtonGroup from '../elements/ButtonGroup';
 import Button from '../elements/Button';
 
 const propTypes = {
-  ...SectionSplitProps.types
-}
+  ...SectionSplitProps.types,
+};
 
 const defaultProps = {
-  ...SectionSplitProps.defaults
-}
+  ...SectionSplitProps.defaults,
+};
 
 const FeaturesSplit = ({
   className,
@@ -28,7 +28,6 @@ const FeaturesSplit = ({
   imageFill,
   ...props
 }) => {
-
   const outerClasses = classNames(
     'features-split section',
     topOuterDivider && 'has-top-divider',
@@ -53,292 +52,391 @@ const FeaturesSplit = ({
 
   const sectionHeader = {
     title: 'ASISTEN PRAKTIKUM',
-    paragraph: 'Berikut adalah asisten praktikum yang akan membantu kalian selama mata kuliah Pengembangan Web 2021.'
+    paragraph:
+      'Berikut adalah asisten praktikum yang akan membantu kalian selama mata kuliah Pengembangan Web 2021.',
   };
 
   return (
-    <section id="asisten"
-      {...props}
-      className={outerClasses}
-    >
-      <div className="container">
+    <section id='asisten' {...props} className={outerClasses}>
+      <div className='container'>
         <div className={innerClasses}>
-          <SectionHeader data={sectionHeader} className="center-content" />
+          <SectionHeader data={sectionHeader} className='center-content' />
           <div className={splitClasses}>
-
-            <div className="split-item">
-              <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
-                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
+            <div className='split-item'>
+              <div
+                className='split-item-content center-content-mobile reveal-from-left'
+                data-reveal-container='.split-item'>
+                <div className='text-xxs text-color-primary fw-600 tt-u mb-8'>
                   JAVASCRIPT & VUE FIREBASE
-                  </div>
-                <h3 className="mt-0 mb-12">
-                  KEVIN GHEBRE
-                  </h3>
-                <p className="m-0">
+                </div>
+                <h3 className='mt-0 mb-12'>KEVIN GHEBRE</h3>
+                <p className='m-0'>
                   <ButtonGroup>
-                  <Button tag="a" wideMobile href="http://line.me/ti/p/~kevin_ghebre" style={{backgroundColor: 'transparent', width: 'auto', padding: '0'}}>
-                    <Image
-                      style={{width: '100%'}}
-                      src={require('./../../assets/images/line.png')}
-                      alt="Features split 01"
-                      // width={25}
-                      // height={40}
+                    <Button
+                      tag='a'
+                      wideMobile
+                      href='http://line.me/ti/p/~kevin_ghebre'
+                      style={{
+                        backgroundColor: 'transparent',
+                        width: 'auto',
+                        padding: '0',
+                      }}>
+                      <Image
+                        style={{ width: '100%' }}
+                        src={require('./../../assets/images/line.png')}
+                        alt='Features split 01'
+                        // width={25}
+                        // height={40}
                       />
                     </Button>
-                  <Button tag="a" wideMobile href="#" style={{backgroundColor: 'transparent', width: 'auto', padding: '0'}}>
-                    <Image
-                      style={{width: '100%'}}
-                      src={require('./../../assets/images/ig.svg')}
-                      alt="Features split 01"
-                      width={25}
-                      height={40} 
+                    <Button
+                      tag='a'
+                      wideMobile
+                      href='#'
+                      style={{
+                        backgroundColor: 'transparent',
+                        width: 'auto',
+                        padding: '0',
+                      }}>
+                      <Image
+                        style={{ width: '100%' }}
+                        src={require('./../../assets/images/ig.svg')}
+                        alt='Features split 01'
+                        width={25}
+                        height={40}
                       />
                     </Button>
-                 
-                </ButtonGroup>
-                  
-                  </p>
+                  </ButtonGroup>
+                </p>
               </div>
-              <div className={
-                classNames(
+              <div
+                className={classNames(
                   'split-item-image center-content-mobile reveal-from-bottom',
                   imageFill && 'split-item-image-fill'
                 )}
-                data-reveal-container=".split-item">
+                data-reveal-container='.split-item'>
                 <Image
                   src={require('./../../assets/images/kevin.png')}
-                  alt="Features split 02"
-                  />
+                  alt='Features split 02'
+                />
               </div>
             </div>
 
-            <div className="split-item">
-              <div className="split-item-content center-content-mobile reveal-from-right" data-reveal-container=".split-item">
-                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
+            <div className='split-item'>
+              <div
+                className='split-item-content center-content-mobile reveal-from-right'
+                data-reveal-container='.split-item'>
+                <div className='text-xxs text-color-primary fw-600 tt-u mb-8'>
                   HTML & REST WEB SERVICE
-                  </div>
-                <h3 className="mt-0 mb-12">
-                  ARKIN ELIEZER JULIJANTO
-                  </h3>
-                <p className="m-0">
-                    <ButtonGroup>
-                  <Button tag="a" wideMobile href="http://line.me/ti/p/~arkin.julianto" style={{backgroundColor: 'transparent', width: 'auto', padding: '0'}}>
-                    <Image
-                      style={{width: '100%'}}
-                      src={require('./../../assets/images/line.png')}
-                      alt="Features split 01"
-
+                </div>
+                <h3 className='mt-0 mb-12'>ARKIN ELIEZER JULIJANTO</h3>
+                <p className='m-0'>
+                  <ButtonGroup>
+                    <Button
+                      tag='a'
+                      wideMobile
+                      href='http://line.me/ti/p/~arkin.julianto'
+                      style={{
+                        backgroundColor: 'transparent',
+                        width: 'auto',
+                        padding: '0',
+                      }}>
+                      <Image
+                        style={{ width: '100%' }}
+                        src={require('./../../assets/images/line.png')}
+                        alt='Features split 01'
                       />
                     </Button>
-                  <Button tag="a" wideMobile href="https://www.instagram.com/arkinjulianto" style={{backgroundColor: 'transparent', width: 'auto', padding: '0'}}>
-                    <Image
-                      style={{width: '100%'}}
-                      src={require('./../../assets/images/ig.svg')}
-                      alt="Features split 01"
-                      width={25}
-                      height={40} 
+                    <Button
+                      tag='a'
+                      wideMobile
+                      href='https://www.instagram.com/arkinjulianto'
+                      style={{
+                        backgroundColor: 'transparent',
+                        width: 'auto',
+                        padding: '0',
+                      }}>
+                      <Image
+                        style={{ width: '100%' }}
+                        src={require('./../../assets/images/ig.svg')}
+                        alt='Features split 01'
+                        width={25}
+                        height={40}
                       />
                     </Button>
-                 
-                </ButtonGroup>
-                  </p>
+                  </ButtonGroup>
+                </p>
               </div>
-              <div className={
-                classNames(
+              <div
+                className={classNames(
                   'split-item-image center-content-mobile reveal-from-bottom',
                   imageFill && 'split-item-image-fill'
                 )}
-                data-reveal-container=".split-item">
+                data-reveal-container='.split-item'>
                 <Image
                   src={require('./../../assets/images/arkin.png')}
-                  alt="Features split 02"
-                  />
+                  alt='Features split 02'
+                />
               </div>
             </div>
 
-            <div className="split-item">
-              <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
-                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
+            <div className='split-item'>
+              <div
+                className='split-item-content center-content-mobile reveal-from-left'
+                data-reveal-container='.split-item'>
+                <div className='text-xxs text-color-primary fw-600 tt-u mb-8'>
                   CSS & VUE CLI
-                  </div>
-                <h3 className="mt-0 mb-12">
-                  GERARDO LEONEL BLESLY
-                  </h3>
-                <p className="m-0">
-                <ButtonGroup>
-                  <Button tag="a" wideMobile href="http://line.me/ti/p/~rexion21" style={{backgroundColor: 'transparent', width: 'auto', padding: '0'}}>
-                    <Image
-                      style={{width: '100%'}}
-                      src={require('./../../assets/images/line.png')}
-                      alt="Features split 01"
-
+                </div>
+                <h3 className='mt-0 mb-12'>GERARDO LEONEL BLESLY</h3>
+                <p className='m-0'>
+                  <ButtonGroup>
+                    <Button
+                      tag='a'
+                      wideMobile
+                      href='http://line.me/ti/p/~rexion21'
+                      style={{
+                        backgroundColor: 'transparent',
+                        width: 'auto',
+                        padding: '0',
+                      }}>
+                      <Image
+                        style={{ width: '100%' }}
+                        src={require('./../../assets/images/line.png')}
+                        alt='Features split 01'
                       />
                     </Button>
-                  <Button tag="a" wideMobile href="https://www.instagram.com/gerardoblesly" style={{backgroundColor: 'transparent', width: 'auto', padding: '0'}}>
-                    <Image
-                      style={{width: '100%'}}
-                      src={require('./../../assets/images/ig.svg')}
-                      alt="Features split 01"
-                      width={25}
-                      height={40} 
+                    <Button
+                      tag='a'
+                      wideMobile
+                      href='https://www.instagram.com/gerardoblesly'
+                      style={{
+                        backgroundColor: 'transparent',
+                        width: 'auto',
+                        padding: '0',
+                      }}>
+                      <Image
+                        style={{ width: '100%' }}
+                        src={require('./../../assets/images/ig.svg')}
+                        alt='Features split 01'
+                        width={25}
+                        height={40}
                       />
                     </Button>
-                 
-                </ButtonGroup>
-                  </p>
+                    <Button
+                      tag='a'
+                      wideMobile
+                      href='https://twitch.tv/itsblesly'
+                      style={{
+                        backgroundColor: 'transparent',
+                        width: 'auto',
+                        padding: '0',
+                      }}>
+                      <Image
+                        style={{ width: '100%' }}
+                        src={require('./../../assets/images/twitch.png')}
+                        alt='Features split 01'
+                        width={25}
+                        height={40}
+                      />
+                    </Button>
+                  </ButtonGroup>
+                </p>
               </div>
-              <div className={
-                classNames(
+              <div
+                className={classNames(
                   'split-item-image center-content-mobile reveal-from-bottom',
                   imageFill && 'split-item-image-fill'
                 )}
-                data-reveal-container=".split-item">
-               <Image
+                data-reveal-container='.split-item'>
+                <Image
                   src={require('./../../assets/images/gerar.png')}
-                  alt="Features split 02"
-                  />
+                  alt='Features split 02'
+                />
               </div>
             </div>
 
-            <div className="split-item">
-              <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
-                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
+            <div className='split-item'>
+              <div
+                className='split-item-content center-content-mobile reveal-from-left'
+                data-reveal-container='.split-item'>
+                <div className='text-xxs text-color-primary fw-600 tt-u mb-8'>
                   PHP & VUE JS BASIC
-                  </div>
-                <h3 className="mt-0 mb-12">
-                  EZRA AUDIVANO DIRFA
-                  </h3>
-                <p className="m-0">
-                   <ButtonGroup>
-                  <Button tag="a" blank wideMobile href="http://line.me/ti/p/~ezradio3" style={{backgroundColor: 'transparent', width: 'auto', padding: '0'}}>
-                    <Image
-                      style={{width: '100%'}}
-                      src={require('./../../assets/images/line.png')}
-                      alt="Features split 01"
-
+                </div>
+                <h3 className='mt-0 mb-12'>EZRA AUDIVANO DIRFA</h3>
+                <p className='m-0'>
+                  <ButtonGroup>
+                    <Button
+                      tag='a'
+                      blank
+                      wideMobile
+                      href='http://line.me/ti/p/~ezradio3'
+                      style={{
+                        backgroundColor: 'transparent',
+                        width: 'auto',
+                        padding: '0',
+                      }}>
+                      <Image
+                        style={{ width: '100%' }}
+                        src={require('./../../assets/images/line.png')}
+                        alt='Features split 01'
                       />
                     </Button>
-                  <Button tag="a"  wideMobile href="https://www.instagram.com/ezradio1" style={{backgroundColor: 'transparent', width: 'auto', padding: '0'}}>
-                   <Image
-                      style={{width: '100%'}}
-                      src={require('./../../assets/images/ig.svg')}
-                      alt="Features split 01"
-                      width={25}
-                      height={40} 
+                    <Button
+                      tag='a'
+                      wideMobile
+                      href='https://www.instagram.com/ezradio1'
+                      style={{
+                        backgroundColor: 'transparent',
+                        width: 'auto',
+                        padding: '0',
+                      }}>
+                      <Image
+                        style={{ width: '100%' }}
+                        src={require('./../../assets/images/ig.svg')}
+                        alt='Features split 01'
+                        width={25}
+                        height={40}
                       />
                     </Button>
-                 
-                </ButtonGroup>
-                  </p>
+                  </ButtonGroup>
+                </p>
               </div>
-              <div className={
-                classNames(
+              <div
+                className={classNames(
                   'split-item-image center-content-mobile reveal-from-bottom',
                   imageFill && 'split-item-image-fill'
                 )}
-                data-reveal-container=".split-item">
+                data-reveal-container='.split-item'>
                 <Image
                   src={require('./../../assets/images/ezra.png')}
-                  alt="Features split 03"
+                  alt='Features split 03'
                   width={400}
-                  height={200} />
+                  height={200}
+                />
               </div>
             </div>
 
-            <div className="split-item">
-              <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
-                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
+            <div className='split-item'>
+              <div
+                className='split-item-content center-content-mobile reveal-from-left'
+                data-reveal-container='.split-item'>
+                <div className='text-xxs text-color-primary fw-600 tt-u mb-8'>
                   LARAVEL MVC & LARAVEL CRUD
-                  </div>
-                <h3 className="mt-0 mb-12">
-                  ARNAWA JUAN IBNU AJI
-                  </h3>
-                <p className="m-0">
-                   <ButtonGroup>
-                  <Button tag="a" wideMobile href="http://line.me/ti/p/~arnawa21" style={{backgroundColor: 'transparent', width: 'auto', padding: '0'}}>
-                    <Image
-                      style={{width: '100%'}}
-                      src={require('./../../assets/images/line.png')}
-                      alt="Features split 01"
-
+                </div>
+                <h3 className='mt-0 mb-12'>ARNAWA JUAN IBNUAJI</h3>
+                <p className='m-0'>
+                  <ButtonGroup>
+                    <Button
+                      tag='a'
+                      wideMobile
+                      href='http://line.me/ti/p/~arnawa21'
+                      style={{
+                        backgroundColor: 'transparent',
+                        width: 'auto',
+                        padding: '0',
+                      }}>
+                      <Image
+                        style={{ width: '100%' }}
+                        src={require('./../../assets/images/line.png')}
+                        alt='Features split 01'
                       />
                     </Button>
-                  <Button tag="a" wideMobile href="https://www.instagram.com/arnawaji09" style={{backgroundColor: 'transparent', width: 'auto', padding: '0'}}>
-                    <Image
-                      style={{width: '100%'}}
-                      src={require('./../../assets/images/ig.svg')}
-                      alt="Features split 01"
-                      width={25}
-                      height={40} 
+                    <Button
+                      tag='a'
+                      wideMobile
+                      href='https://www.instagram.com/arnawaji09'
+                      style={{
+                        backgroundColor: 'transparent',
+                        width: 'auto',
+                        padding: '0',
+                      }}>
+                      <Image
+                        style={{ width: '100%' }}
+                        src={require('./../../assets/images/ig.svg')}
+                        alt='Features split 01'
+                        width={25}
+                        height={40}
                       />
                     </Button>
-                 
-                </ButtonGroup>
-                  </p>
+                  </ButtonGroup>
+                </p>
               </div>
-              <div className={
-                classNames(
+              <div
+                className={classNames(
                   'split-item-image center-content-mobile reveal-from-bottom',
                   imageFill && 'split-item-image-fill'
                 )}
-                data-reveal-container=".split-item">
-                 <Image
-                    src={require('./../../assets/images/aji.png')}
-                    alt="Features split 02"
-                  />
+                data-reveal-container='.split-item'>
+                <Image
+                  src={require('./../../assets/images/aji.png')}
+                  alt='Features split 02'
+                />
               </div>
             </div>
 
-            <div className="split-item">
-              <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
-                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
+            <div className='split-item'>
+              <div
+                className='split-item-content center-content-mobile reveal-from-left'
+                data-reveal-container='.split-item'>
+                <div className='text-xxs text-color-primary fw-600 tt-u mb-8'>
                   PWA VUE & SERVICE WORKER
-                  </div>
-                <h3 className="mt-0 mb-12">
-                  MILIARWAN DOANKZZ
-                  </h3>
-                <p className="m-0">
-                   <ButtonGroup>
-                  <Button tag="a" wideMobile href="http://line.me/ti/p/~miliarwan_doankzz" style={{backgroundColor: 'transparent', width: 'auto', padding: '0'}}>
-                    <Image
-                      style={{width: '100%'}}
-                      src={require('./../../assets/images/line.png')}
-                      alt="Features split 01"
-
+                </div>
+                <h3 className='mt-0 mb-12'>MILIARWAN DOANKZZ</h3>
+                <p className='m-0'>
+                  <ButtonGroup>
+                    <Button
+                      tag='a'
+                      wideMobile
+                      href='http://line.me/ti/p/~miliarwan_doankzz'
+                      style={{
+                        backgroundColor: 'transparent',
+                        width: 'auto',
+                        padding: '0',
+                      }}>
+                      <Image
+                        style={{ width: '100%' }}
+                        src={require('./../../assets/images/line.png')}
+                        alt='Features split 01'
                       />
                     </Button>
-                  <Button tag="a" wideMobile href="https://www.instagram.com/miliarwan_doankz" style={{backgroundColor: 'transparent', width: 'auto', padding: '0'}}>
-                    <Image
-                      style={{width: '100%'}}
-                      src={require('./../../assets/images/ig.svg')}
-                      alt="Features split 01"
-                      width={25}
-                      height={40} 
+                    <Button
+                      tag='a'
+                      wideMobile
+                      href='https://www.instagram.com/miliarwan_doankz'
+                      style={{
+                        backgroundColor: 'transparent',
+                        width: 'auto',
+                        padding: '0',
+                      }}>
+                      <Image
+                        style={{ width: '100%' }}
+                        src={require('./../../assets/images/ig.svg')}
+                        alt='Features split 01'
+                        width={25}
+                        height={40}
                       />
                     </Button>
-                 
-                </ButtonGroup>
-                  </p>
+                  </ButtonGroup>
+                </p>
               </div>
-              <div className={
-                classNames(
+              <div
+                className={classNames(
                   'split-item-image center-content-mobile reveal-from-bottom',
                   imageFill && 'split-item-image-fill'
                 )}
-                data-reveal-container=".split-item">
-                 <Image
-                    src={require('./../../assets/images/mili.png')}
-                    alt="Features split 02"
-                  />
+                data-reveal-container='.split-item'>
+                <Image
+                  src={require('./../../assets/images/mili.png')}
+                  alt='Features split 02'
+                />
               </div>
             </div>
-
           </div>
         </div>
       </div>
     </section>
   );
-}
+};
 
 FeaturesSplit.propTypes = propTypes;
 FeaturesSplit.defaultProps = defaultProps;
