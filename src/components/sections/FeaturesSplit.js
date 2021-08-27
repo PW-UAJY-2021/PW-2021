@@ -84,9 +84,7 @@ const FeaturesSplit = ({
                       <Image
                         style={{ width: '100%' }}
                         src={require('./../../assets/images/line.png')}
-                        alt='Features split 01'
-                        // width={25}
-                        // height={40}
+                        alt='line.png'
                       />
                     </Button>
                     <Button
@@ -101,7 +99,7 @@ const FeaturesSplit = ({
                       <Image
                         style={{ width: '100%' }}
                         src={require('./../../assets/images/ig.svg')}
-                        alt='Features split 01'
+                        alt='ig.png'
                         width={25}
                         height={40}
                       />
@@ -117,7 +115,7 @@ const FeaturesSplit = ({
                 data-reveal-container='.split-item'>
                 <Image
                   src={require('./../../assets/images/kevin.png')}
-                  alt='Features split 02'
+                  alt='kevin.png'
                 />
               </div>
             </div>
@@ -144,7 +142,7 @@ const FeaturesSplit = ({
                       <Image
                         style={{ width: '100%' }}
                         src={require('./../../assets/images/line.png')}
-                        alt='Features split 01'
+                        alt='line.png'
                       />
                     </Button>
                     <Button
@@ -159,7 +157,7 @@ const FeaturesSplit = ({
                       <Image
                         style={{ width: '100%' }}
                         src={require('./../../assets/images/ig.svg')}
-                        alt='Features split 01'
+                        alt='ig.png'
                         width={25}
                         height={40}
                       />
@@ -175,7 +173,7 @@ const FeaturesSplit = ({
                 data-reveal-container='.split-item'>
                 <Image
                   src={require('./../../assets/images/arkin.png')}
-                  alt='Features split 02'
+                  alt='arkin.png'
                 />
               </div>
             </div>
@@ -202,7 +200,7 @@ const FeaturesSplit = ({
                       <Image
                         style={{ width: '100%' }}
                         src={require('./../../assets/images/line.png')}
-                        alt='Features split 01'
+                        alt='line.png'
                       />
                     </Button>
                     <Button
@@ -217,7 +215,7 @@ const FeaturesSplit = ({
                       <Image
                         style={{ width: '100%' }}
                         src={require('./../../assets/images/ig.svg')}
-                        alt='Features split 01'
+                        alt='ig.png'
                         width={25}
                         height={40}
                       />
@@ -234,7 +232,7 @@ const FeaturesSplit = ({
                       <Image
                         style={{ width: '100%' }}
                         src={require('./../../assets/images/twitch.png')}
-                        alt='Features split 01'
+                        alt='twitch.png'
                         width={25}
                         height={40}
                       />
@@ -250,7 +248,7 @@ const FeaturesSplit = ({
                 data-reveal-container='.split-item'>
                 <Image
                   src={require('./../../assets/images/gerar.png')}
-                  alt='Features split 02'
+                  alt='gerar.png'
                 />
               </div>
             </div>
@@ -278,7 +276,7 @@ const FeaturesSplit = ({
                       <Image
                         style={{ width: '100%' }}
                         src={require('./../../assets/images/line.png')}
-                        alt='Features split 01'
+                        alt='line.png'
                       />
                     </Button>
                     <Button
@@ -293,7 +291,7 @@ const FeaturesSplit = ({
                       <Image
                         style={{ width: '100%' }}
                         src={require('./../../assets/images/ig.svg')}
-                        alt='Features split 01'
+                        alt='ig.png'
                         width={25}
                         height={40}
                       />
@@ -309,9 +307,7 @@ const FeaturesSplit = ({
                 data-reveal-container='.split-item'>
                 <Image
                   src={require('./../../assets/images/ezra.png')}
-                  alt='Features split 03'
-                  width={400}
-                  height={200}
+                  alt='ezra.png'
                 />
               </div>
             </div>
@@ -338,7 +334,7 @@ const FeaturesSplit = ({
                       <Image
                         style={{ width: '100%' }}
                         src={require('./../../assets/images/line.png')}
-                        alt='Features split 01'
+                        alt='line.png'
                       />
                     </Button>
                     <Button
@@ -353,7 +349,7 @@ const FeaturesSplit = ({
                       <Image
                         style={{ width: '100%' }}
                         src={require('./../../assets/images/ig.svg')}
-                        alt='Features split 01'
+                        alt='ig.png'
                         width={25}
                         height={40}
                       />
@@ -369,7 +365,7 @@ const FeaturesSplit = ({
                 data-reveal-container='.split-item'>
                 <Image
                   src={require('./../../assets/images/aji.png')}
-                  alt='Features split 02'
+                  alt='aji.png'
                 />
               </div>
             </div>
@@ -396,7 +392,7 @@ const FeaturesSplit = ({
                       <Image
                         style={{ width: '100%' }}
                         src={require('./../../assets/images/line.png')}
-                        alt='Features split 01'
+                        alt='line.png'
                       />
                     </Button>
                     <Button
@@ -411,7 +407,7 @@ const FeaturesSplit = ({
                       <Image
                         style={{ width: '100%' }}
                         src={require('./../../assets/images/ig.svg')}
-                        alt='Features split 01'
+                        alt='ig.png'
                         width={25}
                         height={40}
                       />
@@ -427,7 +423,7 @@ const FeaturesSplit = ({
                 data-reveal-container='.split-item'>
                 <Image
                   src={require('./../../assets/images/mili.png')}
-                  alt='Features split 02'
+                  alt='mili.png'
                 />
               </div>
             </div>
