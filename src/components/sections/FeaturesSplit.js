@@ -72,21 +72,29 @@ const FeaturesSplit = ({
                 <h3 className='mt-0 mb-12'>KEVIN GHEBRE</h3>
                 <p className='m-0'>
                   <ButtonGroup>
-                    <Button
-                      tag='a'
-                      wideMobile
+                    <a
                       href='http://line.me/ti/p/~kevin_ghebre'
+                      target='_blank'
                       style={{
-                        backgroundColor: 'transparent',
-                        width: 'auto',
-                        padding: '0',
+                        paddingLeft: '5px',
+                        paddingRight: '10px',
+                        paddingTop: '10px',
                       }}>
-                      <Image
-                        style={{ width: '100%' }}
-                        src={require('./../../assets/images/line.png')}
-                        alt='line.png'
-                      />
-                    </Button>
+                      <Button
+                        tag='a'
+                        wideMobile
+                        style={{
+                          backgroundColor: 'transparent',
+                          width: 'auto',
+                          padding: '0',
+                        }}>
+                        <Image
+                          style={{ width: '100%' }}
+                          src={require('./../../assets/images/line.png')}
+                          alt='line.png'
+                        />
+                      </Button>
+                    </a>
                     <Button
                       tag='a'
                       wideMobile
@@ -130,38 +138,74 @@ const FeaturesSplit = ({
                 <h3 className='mt-0 mb-12'>ARKIN ELIEZER JULIJANTO</h3>
                 <p className='m-0'>
                   <ButtonGroup>
-                    <Button
-                      tag='a'
-                      wideMobile
+                    <a
                       href='http://line.me/ti/p/~arkin.julianto'
+                      target='_blank'
                       style={{
-                        backgroundColor: 'transparent',
-                        width: 'auto',
-                        padding: '0',
+                        paddingLeft: '5px',
+                        paddingRight: '10px',
+                        paddingTop: '10px',
                       }}>
-                      <Image
-                        style={{ width: '100%' }}
-                        src={require('./../../assets/images/line.png')}
-                        alt='line.png'
-                      />
-                    </Button>
-                    <Button
-                      tag='a'
-                      wideMobile
+                      <Button
+                        tag='a'
+                        wideMobile
+                        style={{
+                          backgroundColor: 'transparent',
+                          width: 'auto',
+                          padding: '0',
+                        }}>
+                        <Image
+                          style={{ width: '100%' }}
+                          src={require('./../../assets/images/line.png')}
+                          alt='line.png'
+                        />
+                      </Button>
+                    </a>
+                    <a
                       href='https://www.instagram.com/arkinjulianto'
+                      target='_blank'
                       style={{
-                        backgroundColor: 'transparent',
-                        width: 'auto',
-                        padding: '0',
+                        paddingRight: '10px',
+                        paddingTop: '10px',
                       }}>
-                      <Image
-                        style={{ width: '100%' }}
-                        src={require('./../../assets/images/ig.svg')}
-                        alt='ig.png'
-                        width={25}
-                        height={40}
-                      />
-                    </Button>
+                      <Button
+                        tag='a'
+                        wideMobile
+                        style={{
+                          backgroundColor: 'transparent',
+                          width: 'auto',
+                          padding: '0',
+                        }}>
+                        <Image
+                          style={{ width: '100%' }}
+                          src={require('./../../assets/images/ig.svg')}
+                          alt='ig.png'
+                          width={25}
+                          height={40}
+                        />
+                      </Button>
+                    </a>
+                    <a
+                      href='https://www.arkineliezer.com/'
+                      target='_blank'
+                      style={{ paddingRight: '10px', paddingTop: '10px' }}>
+                      <Button
+                        tag='a'
+                        wideMobile
+                        style={{
+                          backgroundColor: 'transparent',
+                          width: 'auto',
+                          padding: '0',
+                        }}>
+                        <Image
+                          style={{ width: '100%' }}
+                          src={require('./../../assets/images/web.png')}
+                          alt='ig.png'
+                          width={25}
+                          height={40}
+                        />
+                      </Button>
+                    </a>
                   </ButtonGroup>
                 </p>
               </div>
@@ -188,55 +232,77 @@ const FeaturesSplit = ({
                 <h3 className='mt-0 mb-12'>GERARDO LEONEL BLESLY</h3>
                 <p className='m-0'>
                   <ButtonGroup>
-                    <Button
-                      tag='a'
-                      wideMobile
+                    <a
                       href='http://line.me/ti/p/~rexion21'
+                      target='_blank'
                       style={{
-                        backgroundColor: 'transparent',
-                        width: 'auto',
-                        padding: '0',
+                        paddingLeft: '5px',
+                        paddingRight: '10px',
+                        paddingTop: '10px',
                       }}>
-                      <Image
-                        style={{ width: '100%' }}
-                        src={require('./../../assets/images/line.png')}
-                        alt='line.png'
-                      />
-                    </Button>
-                    <Button
-                      tag='a'
-                      wideMobile
+                      <Button
+                        tag='a'
+                        wideMobile
+                        style={{
+                          backgroundColor: 'transparent',
+                          width: 'auto',
+                          padding: '0',
+                        }}>
+                        <Image
+                          style={{ width: '100%' }}
+                          src={require('./../../assets/images/line.png')}
+                          alt='line.png'
+                        />
+                      </Button>
+                    </a>
+                    <a
                       href='https://www.instagram.com/gerardoblesly'
+                      target='_blank'
                       style={{
-                        backgroundColor: 'transparent',
-                        width: 'auto',
-                        padding: '0',
+                        paddingRight: '10px',
+                        paddingTop: '10px',
                       }}>
-                      <Image
-                        style={{ width: '100%' }}
-                        src={require('./../../assets/images/ig.svg')}
-                        alt='ig.png'
-                        width={25}
-                        height={40}
-                      />
-                    </Button>
-                    <Button
-                      tag='a'
-                      wideMobile
+                      <Button
+                        tag='a'
+                        wideMobile
+                        style={{
+                          backgroundColor: 'transparent',
+                          width: 'auto',
+                          padding: '0',
+                        }}>
+                        <Image
+                          style={{ width: '100%' }}
+                          src={require('./../../assets/images/ig.svg')}
+                          alt='ig.png'
+                          width={25}
+                          height={40}
+                        />
+                      </Button>
+                    </a>
+                    <a
                       href='https://twitch.tv/itsblesly'
+                      target='_blank'
                       style={{
-                        backgroundColor: 'transparent',
-                        width: 'auto',
-                        padding: '0',
+                        paddingRight: '10px',
+                        paddingTop: '10px',
                       }}>
-                      <Image
-                        style={{ width: '100%' }}
-                        src={require('./../../assets/images/twitch.png')}
-                        alt='twitch.png'
-                        width={25}
-                        height={40}
-                      />
-                    </Button>
+                      <Button
+                        tag='a'
+                        wideMobile
+                        style={{
+                          backgroundColor: 'transparent',
+                          width: 'auto',
+                          padding: '0',
+                        }}>
+                        <Image
+                          style={{ width: '100%' }}
+                          src={require('./../../assets/images/twitch.png')}
+                          alt='twitch.png'
+                          width={25}
+                          height={40}
+                        />
+                      </Button>
+                    </a>
                   </ButtonGroup>
                 </p>
               </div>
@@ -263,39 +329,78 @@ const FeaturesSplit = ({
                 <h3 className='mt-0 mb-12'>EZRA AUDIVANO DIRFA</h3>
                 <p className='m-0'>
                   <ButtonGroup>
-                    <Button
-                      tag='a'
-                      blank
-                      wideMobile
+                    <a
                       href='http://line.me/ti/p/~ezradio3'
+                      target='_blank'
                       style={{
-                        backgroundColor: 'transparent',
-                        width: 'auto',
-                        padding: '0',
+                        paddingLeft: '5px',
+                        paddingRight: '10px',
+                        paddingTop: '10px',
                       }}>
-                      <Image
-                        style={{ width: '100%' }}
-                        src={require('./../../assets/images/line.png')}
-                        alt='line.png'
-                      />
-                    </Button>
-                    <Button
-                      tag='a'
-                      wideMobile
+                      <Button
+                        tag='a'
+                        blank
+                        wideMobile
+                        style={{
+                          backgroundColor: 'transparent',
+                          width: 'auto',
+                          padding: '0',
+                        }}>
+                        <Image
+                          style={{ width: '100%' }}
+                          src={require('./../../assets/images/line.png')}
+                          alt='line.png'
+                        />
+                      </Button>
+                    </a>
+                    <a
                       href='https://www.instagram.com/ezradio1'
+                      target='_blank'
                       style={{
-                        backgroundColor: 'transparent',
-                        width: 'auto',
-                        padding: '0',
+                        paddingRight: '10px',
+                        paddingTop: '10px',
                       }}>
-                      <Image
-                        style={{ width: '100%' }}
-                        src={require('./../../assets/images/ig.svg')}
-                        alt='ig.png'
-                        width={25}
-                        height={40}
-                      />
-                    </Button>
+                      <Button
+                        tag='a'
+                        wideMobile
+                        style={{
+                          backgroundColor: 'transparent',
+                          width: 'auto',
+                          padding: '0',
+                        }}>
+                        <Image
+                          style={{ width: '100%' }}
+                          src={require('./../../assets/images/ig.svg')}
+                          alt='ig.png'
+                          width={25}
+                          height={40}
+                        />
+                      </Button>
+                    </a>
+                    <a
+                      href='https://www.ezraaudivano.com/'
+                      target='_blank'
+                      style={{
+                        paddingRight: '10px',
+                        paddingTop: '10px',
+                      }}>
+                      <Button
+                        tag='a'
+                        wideMobile
+                        style={{
+                          backgroundColor: 'transparent',
+                          width: 'auto',
+                          padding: '0',
+                        }}>
+                        <Image
+                          style={{ width: '100%' }}
+                          src={require('./../../assets/images/web.png')}
+                          alt='ig.png'
+                          width={25}
+                          height={40}
+                        />
+                      </Button>
+                    </a>
                   </ButtonGroup>
                 </p>
               </div>
@@ -322,38 +427,53 @@ const FeaturesSplit = ({
                 <h3 className='mt-0 mb-12'>ARNAWA JUAN IBNUAJI</h3>
                 <p className='m-0'>
                   <ButtonGroup>
-                    <Button
-                      tag='a'
-                      wideMobile
+                    <a
                       href='http://line.me/ti/p/~arnawa21'
+                      target='_blank'
                       style={{
-                        backgroundColor: 'transparent',
-                        width: 'auto',
-                        padding: '0',
+                        paddingLeft: '5px',
+                        paddingRight: '10px',
+                        paddingTop: '10px',
                       }}>
-                      <Image
-                        style={{ width: '100%' }}
-                        src={require('./../../assets/images/line.png')}
-                        alt='line.png'
-                      />
-                    </Button>
-                    <Button
-                      tag='a'
-                      wideMobile
+                      <Button
+                        tag='a'
+                        wideMobile
+                        style={{
+                          backgroundColor: 'transparent',
+                          width: 'auto',
+                          padding: '0',
+                        }}>
+                        <Image
+                          style={{ width: '100%' }}
+                          src={require('./../../assets/images/line.png')}
+                          alt='line.png'
+                        />
+                      </Button>
+                    </a>
+                    <a
                       href='https://www.instagram.com/arnawaji09'
+                      target='_blank'
                       style={{
-                        backgroundColor: 'transparent',
-                        width: 'auto',
-                        padding: '0',
+                        paddingRight: '10px',
+                        paddingTop: '10px',
                       }}>
-                      <Image
-                        style={{ width: '100%' }}
-                        src={require('./../../assets/images/ig.svg')}
-                        alt='ig.png'
-                        width={25}
-                        height={40}
-                      />
-                    </Button>
+                      <Button
+                        tag='a'
+                        wideMobile
+                        style={{
+                          backgroundColor: 'transparent',
+                          width: 'auto',
+                          padding: '0',
+                        }}>
+                        <Image
+                          style={{ width: '100%' }}
+                          src={require('./../../assets/images/ig.svg')}
+                          alt='ig.png'
+                          width={25}
+                          height={40}
+                        />
+                      </Button>
+                    </a>
                   </ButtonGroup>
                 </p>
               </div>
@@ -380,38 +500,53 @@ const FeaturesSplit = ({
                 <h3 className='mt-0 mb-12'>MILIARWAN DOANKZZ</h3>
                 <p className='m-0'>
                   <ButtonGroup>
-                    <Button
-                      tag='a'
-                      wideMobile
+                    <a
                       href='http://line.me/ti/p/~miliarwan_doankzz'
+                      target='_blank'
                       style={{
-                        backgroundColor: 'transparent',
-                        width: 'auto',
-                        padding: '0',
+                        paddingLeft: '5px',
+                        paddingRight: '10px',
+                        paddingTop: '10px',
                       }}>
-                      <Image
-                        style={{ width: '100%' }}
-                        src={require('./../../assets/images/line.png')}
-                        alt='line.png'
-                      />
-                    </Button>
-                    <Button
-                      tag='a'
-                      wideMobile
+                      <Button
+                        tag='a'
+                        wideMobile
+                        style={{
+                          backgroundColor: 'transparent',
+                          width: 'auto',
+                          padding: '0',
+                        }}>
+                        <Image
+                          style={{ width: '100%' }}
+                          src={require('./../../assets/images/line.png')}
+                          alt='line.png'
+                        />
+                      </Button>
+                    </a>
+                    <a
                       href='https://www.instagram.com/miliarwan_doankz'
+                      target='_blank'
                       style={{
-                        backgroundColor: 'transparent',
-                        width: 'auto',
-                        padding: '0',
+                        paddingRight: '10px',
+                        paddingTop: '10px',
                       }}>
-                      <Image
-                        style={{ width: '100%' }}
-                        src={require('./../../assets/images/ig.svg')}
-                        alt='ig.png'
-                        width={25}
-                        height={40}
-                      />
-                    </Button>
+                      <Button
+                        tag='a'
+                        wideMobile
+                        style={{
+                          backgroundColor: 'transparent',
+                          width: 'auto',
+                          padding: '0',
+                        }}>
+                        <Image
+                          style={{ width: '100%' }}
+                          src={require('./../../assets/images/ig.svg')}
+                          alt='ig.png'
+                          width={25}
+                          height={40}
+                        />
+                      </Button>
+                    </a>
                   </ButtonGroup>
                 </p>
               </div>
